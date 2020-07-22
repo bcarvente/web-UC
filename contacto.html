@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+	<title>Mi primera web</title>
+</head>
+<body>
+	<!--Encabezado-->
+	<h1>Mi primera web</h1>
+
+	<ul> <!--Menú-->
+		<li><a href="index2.html" title="Inicio">Inicio</a></li>
+		<li><a href="contenidos.html" title="Contenidos">Contenidos</a></li>
+		<li><a href="contacto.html" title="Contacto">Contacto</a></li>
+		<li><a href="https://www.facebook.com/Kuri-104847457977889/?modal=admin_todo_tour" target="_blank">Página de Facebook</a></li>
+	</ul>
+
+	<hr>
+
+	<!--Contenido de contacto.html-->
+	<h2>Contáctanos</h2>
+	<form>
+		<p>
+			<label for="nombre">Nombre</label> <br>
+			<input type="text" name="nombre">
+		</p>
+
+		<p>
+			<label for="comentario">Comentarios</label> <br>
+			<textarea name="comentario"></textarea>
+		</p>
+		
+		<p>
+			<label name="edad">Edad</label> <br>
+			<select name="edad">
+				<option value="mayor">Mayor de 18 años</option>
+				<option value="adulto">Entre 30 y 59 años</option>
+				<option value="60">Mayor de 60 años</option>
+			</select>
+		</p>
+		<input type="submit" value="Enviar comentario">
+	</form>
+
+</body>
+</html>
